@@ -1,0 +1,48 @@
+
+
+	DBMS
+		Security
+		Backup
+		
+	
+	
+	COBOL
+	
+	SQL
+	
+	Library
+	
+	re-invent wheel
+	
+	Fiat
+	
+	Index Array
+	Associative Array (Key-Value)
+	
+	Conditional/Sentinal
+	Counter
+	
+	DRY - Don't Repeat Yourself
+	
+	
+	Simplicity vs Simplism
+	
+
+	Seperation of Concern
+	
+	struct student
+	{
+		int rollno;
+		char name[50];
+	};
+	
+	
+	int main(void)
+	{
+		struct student *s;
+		
+		s->rollno = 1;
+		
+		
+	}
+	

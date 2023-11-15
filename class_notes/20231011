@@ -1,0 +1,62 @@
+
+	Flowchart
+	
+	ER-Model
+	
+	Diet Recommendation
+	User
+	
+	Referential Integrity
+	
+	Entity
+		Tournament
+			Id			int	
+			Name		varchar(50)
+			Venue		varchar(100)
+			Start_date	 date
+			End_date	date
+		Player
+			Id
+			Fide_id
+			Name
+			Gender
+			Date_of_Birth
+			Contact_number
+			Email_Id
+			Fathers_name
+			
+		Board
+			Id
+			
+		Pairing
+			Id
+			White
+			Black
+			
+		Result
+			Id
+			Player
+			Point
+			
+		
+	Requirements Documents
+	
+	1. Find the entities
+	2. Relate the entities with each
+	3. Polulate entities and relationships with attribute
+	4. Identity cardnality and participation
+	
+	Business Rules
+	
+	Entity Type
+	Entity Set
+	
+	RDBMS:
+		Database is a collection of relations. (Two dimenstional table)
+	
+	Dixit
+	
+	SQL
+	
+	
+	

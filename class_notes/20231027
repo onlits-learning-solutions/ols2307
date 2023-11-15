@@ -1,0 +1,61 @@
+
+	Github
+	
+	Analysis
+	Design
+	Coding
+		Frontend (html, css, js)
+		Backend (php)
+		Database (mysql/mariadb)
+	Testing
+		
+		
+	me
+	
+	html
+	css
+	
+	Development (not usable)
+	Production (usable)
+	
+	
+	(functions)________________ is the building block of a c program.
+	
+	A c program is a collection of __________. (functions)
+	
+	
+	
+	(object)________________ is the building block of a Java program.
+	
+	A Java program is a collection of __________. (object)
+	
+	
+	
+	Object is a real life entity having some role in the problem
+	domain.
+	
+	Player
+	Tournament
+	Arbiter/Orbiter
+	
+	POP		-		Function
+	OOP		-		Class
+	
+	DRY	:	Don't Repeat Yourself
+	Separation of Concerns
+	
+	array
+	
+	Cloud Computing
+	
+	Library has feature to communicate with a database.
+	
+
+	#define SERVER localhost
+	
+	
+	const char[] = "localhost";
+	
+	ORM	=	Object Relational Mapper
+	
+	

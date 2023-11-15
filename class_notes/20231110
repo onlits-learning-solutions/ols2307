@@ -1,0 +1,58 @@
+
+	Copy/Paste
+	Call
+	
+	call by value			-	copy	
+	call by reference		-
+	
+	
+	
+	//call by value	
+	int main(void)
+	{
+		int a=10, b=20;
+		swap(a, b);
+		printf("%d\t%d", a, b);
+	}
+	
+	void swap(int x, int y)
+	{
+		int t = x;
+		x = y;
+		y = t;
+	}
+	
+	
+	//call by reference
+	int main(void)
+	{
+		int a=10, b=20;
+		swap(&a, &b);
+		printf("%d\t%d", a, b);
+	}
+	
+	void swap(int *x, int *y)
+	{
+		int t = *x;
+		*x = *y;
+		*y = t;
+	}
+	
+	
+	HTTP/HTTPS	-	Stateless
+	
+	Session/Cookies
+	
+	http://localhost:8000/items/create.php
+	
+	post[]
+	
+	LAN - Local Area Network
+	MAN	- Metropolitan Area Network
+	WAN - Wide Area Network
+	PAN - Personal Area Network
+	CAN	- Campus Area Network
+	
+	Workgroup model (peer-to-peer)
+	Domain model	(client-server)
+	

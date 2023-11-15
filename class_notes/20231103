@@ -1,0 +1,59 @@
+
+	OOP: Paradigm to create programs
+	
+	Pedagogy
+	
+	POP - alogrithms
+	
+	variable
+	array
+	function
+	
+	element name is known as identifier
+	
+		- A keyword cannot be an identifier
+		- Identifier may contain letters, digits and underscore
+		- Identifier cannot start with a digit
+		- No special characters are allowed
+		- No whitespaces are allowed
+		
+		
+		10000000 00000000 00000000 00000101		-	5
+		00000000 00000000 00000000 00001010		-	10
+		
+		256
+		0-255
+		
+		00000101
+		
+		void main()
+		{
+		
+		}
+		
+		int main(void)
+		{
+		
+		}
+		
+		int main(int argc, char *argv[])
+		{
+		
+		}
+		
+		
+		public static void main(String[] args) {
+		
+		}
+		
+		http://localhost:8000/tournament/new.php
+		
+		
+		Synopsis/Project Proposal
+		
+		Dictionary	-		Associative Array
+			Key = Value
+		
+		ACID	=	Atomicity Consistency Isolation Durability
+		
+		

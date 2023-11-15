@@ -1,0 +1,50 @@
+
+	RDBMS:
+		Table	-	Data Store
+		View	-	Partition of Data
+		Index	-	Help in making search fast
+		Stored Procedure
+		Function
+		Trigger
+		
+		
+		Rollno Name Gender DOB Contact_No
+		
+		SQL:
+		DDL	-	CREATE, ALTER, DROP, RENAME, COMMENT, TRUNCATE
+		DML	-	INSERT, DELETE, UPDATE 
+		DQL	-	SELECT
+		DCL	-	GRANT, REVOKE
+		TCL -	COMMIT, ROLLBACK, SAVEPOINT
+		
+		
+		Serialization
+		
+		Rollno	S1	S2	S3	TM
+		1		68	75	69	
+		
+		
+		ISO
+		
+		int main(void)
+		int main(int argc, char *argv[])
+		
+		BBA/MBA:
+			Computer Application
+			MIS - Management Information System
+			
+		Basic Web Development
+		
+		Microsoft Access
+		
+		Encapsulation
+		Abstraction
+		Inheritance
+		Polymorphism
+		
+		Class
+		Object
+		Interface
+		
+		
+		

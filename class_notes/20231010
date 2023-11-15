@@ -1,0 +1,106 @@
+
+	ASP.Net	-	Windows (now cross platform)
+	
+	.aspx	(old)
+	.cshtml (new)
+	
+	
+	user registration
+	new diet plan
+	
+	
+	A - 65 - 01000001
+	
+	C
+	Python
+	
+	int a;		//statically-typed language
+	
+	a = input("Enter a number: ")	//dynamically-typed language
+	
+	Conceptual/High Level
+	Chess Tournament Management System
+		Tournament
+			Id
+			Name
+			Start_Date
+			End_Date
+			Venue
+		Player
+			Id
+			Name
+			Dob
+			Gender
+			Contact_No
+			Email_Id
+			Fide_Id
+			Fide_Rating
+		Board Pairing
+			Id
+			Black
+			White
+		Result
+			Id
+			GameId
+			Player1
+			Player2
+	
+	Tourism Management System
+		User (Tourist)
+		Information
+		Guide
+	
+	Diet Recomendation System
+		User
+		Patient
+		Diet Plan
+	
+	Student Attendance Management System
+		Student
+		Attendance
+			
+	Resume Builder
+		User
+		Resume
+		
+		
+	
+	Physical/Low Level
+	Linked-List
+	Stack
+	Queue
+	Tree
+	Graph
+	
+	
+	Entity-Relationship
+	
+	
+	Algorithm
+	Flowchart
+	
+	Analysis	-	Change
+	Design		-	Fixed
+	
+	
+	
+	C
+	
+	#include <stdio.h>
+	int main(void)
+	{
+		int n;
+		printf("Enter a number: ");
+		scanf("%d", &n);
+		if(n%2==0)
+			printf("Even");
+		else
+			printf("Odd")
+		return 0;
+	}
+	
+	
+	DELETE FROM account WHERE Id='2'
+	
+	
+	

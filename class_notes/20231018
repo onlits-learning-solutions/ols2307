@@ -1,0 +1,147 @@
+
+	Dry Run
+	
+	Iteration
+	
+	DFD
+	ERD
+	
+	SAAS	-	Software As A Service
+	---------------------------------
+	PAAS	-	Platform As A Service
+	IAAS	-	Infrastructure As A Service
+	
+	
+	Avoid duplicacy
+	Avoid empty (null) fields
+	
+	What is domain for attendance?
+	
+	Domain: Valid value range for a column
+	
+	Maintainability
+	
+	1. Efficiency
+	2. Accuracy
+	3. Robust
+	4. Portable
+	
+	Modular
+	
+	Backend
+	
+	Journey From			To
+	Boarding From			To
+	
+	Name
+	Age
+	Gender
+	
+	Meal preference
+	Seat/Berth preference
+	
+	Data Model:
+		High level/conceptual
+			ER-Model
+			EER-Model
+			UML
+		
+		Low level/physical
+		
+		
+		MySQL
+		Oracle
+		SQL Server
+		
+		
+		Data is stored in relations (two-dimensional table)
+		Attributes
+		Data type
+	
+	
+		Tournament
+		
+		Attribute/Field		Type			Default		Key/Constraint	Others
+		Id					INT				NULL		PK				AUTO INCREMENT
+		Name				VARCHAR(100)	NULL						
+		Venue				VARCHAR(100)	NULL
+		Organiser			VARCHAR(50)		NULL
+		
+		
+		
+		
+		
+		Business Rule:
+			T001
+			321312/MEG/2023
+			1	
+			
+			CHAR(100)
+			VARCHAR(100)
+			\0
+			
+			16-bit		0 to 65535
+			32-bit		0 to 4 billion	10
+			
+			Word-size
+			
+			
+			Relational
+			SQL
+				Datatypes
+					BLOB
+					
+			Node.JS
+			DJango
+			
+			Apache
+			
+			Check Constraint
+			
+			
+			
+			
+			XAMPP:	Linux Apache MariaDB PHP Perl
+			
+			Toy project
+			
+			Range Code
+			
+			BAQPM1338C
+			
+			Manish Mishra
+			
+			
+			ORM	-	Object Relational Mapper
+			
+			SQL
+				CREATE USER temp IDENTIFIED BY 'password';
+			
+			Geeks for Geeks
+			
+			10 objectives		-	OOP (C++)
+			1 program
+			1 question sql
+			
+			HTML, CSS, JS, PHP, MySQL
+			
+			Query
+			
+			SQL
+				DDL
+				DML
+				DQL
+				DCL
+				TCL
+	
+	SELECT Id, Name FROM tournament WHERE year(date) = 2023;
+		Projection
+		Selection
+		
+		PostgresSQL
+		
+		Native
+		
+		
+	
+	
