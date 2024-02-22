@@ -1,0 +1,67 @@
+
+	nopackage
+	
+	Package: Collection of classes
+	Namespace
+	
+	Classes
+	
+	Java
+	C#
+	
+	System	-	Class or Interface
+	
+	PascalCase	-	Class or Interface
+	camelCase	-	Method or Properties
+	UPPERCASE	-	Contants
+	lowercase	-	local variable and keywords
+	snake_case
+	kebab-case
+	
+	Why OOP?
+	
+	Q. In C how we do we store character strings?
+	A. Null terminated Character arrays
+	
+	Q. In Java how we do we store character strings?
+	A. String class object
+	
+	Data structure
+	
+	Objects are variables of Class
+	
+	66 Mhz
+	1 Mb
+	1.44 Mb
+	----------------
+	900 Mhz
+	64 MB
+	20 GB 5400 rpm
+	
+	Solve atleast 20 programs in Java.
+	
+	WAP to add two complex numbers.
+	WAP to accept rollno, name, date_of_birth of 5 students and 
+	display them.
+	
+	It is possible to create a type (data type)
+		C	-	Structure
+		C++ -	Structure/Class
+		Java-	Class
+	
+	
+	
+	complex number is Composite type
+		real + imaginary
+	
+	Design
+	
+	1. Encapsulation
+	2. Abstraction
+	3. Inheritance
+	4. Polymorphism
+	
+	
+	
+	
+	

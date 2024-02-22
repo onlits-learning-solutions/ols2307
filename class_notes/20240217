@@ -1,0 +1,98 @@
+
+	Core Java		-	
+	Advance Java	-	Servlets, CORBA, RMI, Beans
+	
+	Spring/Sring Boot
+	
+	JEE
+	
+	Oak
+	
+	Java 1.0	-	1995
+	
+	Support
+	
+	Sun Microsystems
+	
+	LTS	-	Long Term Support
+	
+	J2SE
+	J2EE
+	J2ME
+	
+	outer: for(i=0; i<10; i++)
+	{
+		inner: for(j=0; j<10; j++)
+		{
+			break outer;
+		}
+	}
+	
+	if(m >= 40)
+		x = 50;
+	else
+		x = 100;
+		
+	x = m >= 40 ? 50 : 100;
+	
+	C, Python, JS
+	
+	OOPS
+	
+	Paradigm:
+		POP	=	Procedure Oriented Programming
+				(Algorithms)
+		OOP =	Object Oriented Programming
+		
+	1970's and early 1980's	-	C
+	Late 1980s and early 1990s	-	C++
+	
+	Visual C++
+	
+	Android	-	Mobile, TV, Car Music System, Set Top Box and many more
+	
+	OOP	-	Java, C++, PHP, Python, C#
+	
+	No pointers in Java.
+	
+	Write Once Run Anywhere
+	Time-space tradeoff
+	
+	Fortran	-	Mathematical/scientific application
+	COBOL	-	Business application
+	
+	Necessisity is the mother of invention.
+	
+	Borland
+		Turbo C++
+		Borland C++
+	
+	#include <stdio.h>
+	#include <conio.h>
+	void main()
+	{
+		clrscr();
+		
+		getch();
+	}
+	
+	
+	#include <stdio.h>
+	int main(void)
+	{
+		
+		return 0;
+	}
+	
+	
+	ANSI	-	C was standarized in 1989 for the first time.
+	
+	Minix	-	Andrew Tanenbaum
+	
+	Channel
+	
+	Visual Basic
+	
+	
+	
+	

@@ -1,0 +1,14 @@
+	<a href="index"></a>
+	echo '<script>
+	window.href="index.php"
+	</script>';
+	
+	Creating
+	Marketing
+	
+	Parentsalarm
+	
+	include 'env.php';		//Warning generated
+	require 'evn.php;		//Error generated
+	
+	

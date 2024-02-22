@@ -1,0 +1,54 @@
+
+	Separation of Concern
+	
+	Brute Force
+	
+	Sorting	=	O(n^2)		-	input 10	-	100	-	Brute Force
+			=	O(n log n)	-	input 10	-	40	-	Divide & Conquer
+			
+	Item
+		item_code
+		item_name
+		unit
+		brand
+		category
+		
+	Sales
+		invoice_no
+		invoice_date
+		buyer_name
+		address (street, city, state, pin)
+		item_code
+		quantity
+		rate
+		amount (derived attribute)
+		
+	Normalization
+	
+	
+	ERD
+	SQL
+	Normalization
+	
+	1NF		-	No-multivalued & No-Composite
+	2NF
+	3NF
+	BCNF
+	4NF
+	5NF
+	
+	Reduce Redundancy
+	
+	Situational
+	
+	DRY		-	Don't Repeat Yourself
+	KISS	-	Keep It Simple Stupid
+	YAGNI	-	You aren't gonna need it
+	
+	As complexity increases architecture dominates the basic
+	material. Alan Kay
+	
+	
+	
+	
+	

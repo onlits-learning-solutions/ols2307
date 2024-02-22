@@ -1,0 +1,26 @@
+
+	Extension	-	Extra Library function/classes
+	
+	.ini
+	
+	ext = mysqli
+	
+	QR Code
+	
+	ext = gd2
+	
+	include
+	require
+	
+	
+	php.ini.development
+	php.ini.production
+	
+	Separation of concern
+	
+	Library + Runtime
+	
+	O(1)
+	O(n)
+	
+	Testability
