@@ -24,8 +24,9 @@ public:
 
 int main(void)
 {
-    complex c;      //c is an object here
-    c.read();
-    c.display();
+    //complex c;      //c is an object here (memory allocated statically)
+    complex *c = new complex(); //c is pointer to object (memory allocated dynamically)
+    c->read();
+    c->display();
     return 0;
 }
