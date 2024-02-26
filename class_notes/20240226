@@ -1,0 +1,73 @@
+
+	153
+	
+	1^3	=	  1
+	5^3	=	125
+	3^3	=	 27
+	------------
+			153
+	------------
+	
+	while(n > 0)
+	{
+		d = n % 10		153 % 10	=	 3
+		n = n / 10		153 / 10	=	15
+		sum = sum + (d * d * d);
+	}
+	
+	do
+	{
+		
+	}
+	while()
+	
+	Class / Object
+	
+	Encapsulation
+	Abstraction
+	Inheritance
+	Polymorphism
+	
+	JDBC
+	
+	Factorial
+		Iteration
+		Recursion
+		Dynamic Programming
+		
+	Excel
+	PDF
+	XML
+	JSON
+	
+	Return.export(JSON);		-	Factory Method
+	
+	if(n % 2 == 0)	//0 for false and non-zero for true
+	if(n % 2 == 0)	//true/false
+	
+	goods should be treated as goods in our programs.
+	student should be treated as student in our programs.
+	
+	struct student
+	{
+		int roll_no;
+		char name[50];
+	};
+	
+	
+	int main()
+	{
+		student s1, s2;
+	
+	}
+	
+	Finnacle
+	
+		A/C No. 7031	Account
+		
+		Customer Id		Customer & Account & ChequeBook & Debit Card
+		
+	
+	Deep Class vs Shallow Class
+	
+	
