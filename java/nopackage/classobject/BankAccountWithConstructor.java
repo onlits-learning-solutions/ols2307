@@ -1,10 +1,10 @@
-public class BankAccount {
+public class BankAccountWithConstructor {
     private String depositorName;
     private String accountNumber;
     private String accountType;
     private float accountBalance;
 
-    void initialize() {
+    BankAccountWithConstructor() {              //Constructor Method
         depositorName = "Ashutosh Kumar";
         accountNumber = "12345";
         accountType = "SA";
@@ -30,9 +30,8 @@ public class BankAccount {
     }
 
     public static void main(String[] args) {
-        BankAccount bankAccount = new BankAccount();
+        BankAccountWithConstructor bankAccount = new BankAccountWithConstructor();
         System.out.println("After initializing:");
-        bankAccount.initialize();
         bankAccount.displayBalance();
         // Deposit 5000.00
         System.out.println("\nAfter depositing 5000.00:");

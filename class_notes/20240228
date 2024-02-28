@@ -1,0 +1,80 @@
+
+ Object					-	CPP/Java
+ Pointer to Object		-	CPP
+ Reference Variable		-	Java
+ 
+ int, float, char	-	non-objects
+ 
+ WAP to accept two integers and find their sum.
+ 
+ object	-	Integer
+ Integer
+ 
+ ABCD
+ 1234
+ 
+ characters
+ 
+ 8789995051
+ 
+ 15999.00	-	float/double
+ 
+ int
+ char
+ float
+ double
+ long
+ 
+ -------------------------------------------------------
+ 
+ train
+ 	no
+ 	name
+ 	from
+ 	to
+ 	stoppages
+ 	
+ station
+ 	code
+ 	name
+ 	
+ ticket
+ 	no
+ 	passenger name
+ 	train no
+ 	
+ 	
+ DRY		:	Don't Repeat Yourself
+ KISS		:	Keep It Simple Stupid
+ YAGNI		:	You Aren't Gonna Need It
+ 
+ 
+ void main(void)
+ {
+ 
+ }
+ 
+ int main(void)
+ {
+ 
+ 	return 0;
+ }
+ 
+ WAP to accept two dates and find their difference.
+ 
+ 
+ today - purchase date
+ 
+ Heaven
+ 
+ Unicorn
+ 
+ Monkey
+ 
+ White Monkey
+ 
+ Ambassador
+ 
+ Types of constructor in Java, C++
+ 
+ 
