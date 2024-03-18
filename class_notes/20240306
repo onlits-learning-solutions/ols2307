@@ -1,0 +1,62 @@
+
+	OOP	-	Object Oriented Programming
+		Objects involved
+		
+	Problem domain
+	
+	DL - Meghalaya
+	
+	Object = Entity
+		Account, Savings Account, Current Account
+		Compound Interest, Withdrawal
+		minimum balance, Service charge
+		
+		
+		Account	-	No., Name, Balance
+		Saving Account	-	compound interest, withdrawal()
+		Current Account - minimum balance, service charge
+		
+		Noun: Object, properties
+		Verb: Function/Method
+	
+	Object's properties/attributes may be simple (int, char, float) or
+	they may be complex (date, time, window, button)
+	
+	
+	Class is a collection of objects
+	Class is template for creating objects
+	
+	DBMS Oracle
+	
+	Foreign Key is used to implement referential integrity
+	
+	Displine: uniform, walk in a line, silence
+	
+	Encapsulation	-	Data Hiding
+	Abstraction		-	Revealing important feature and hiding details
+	Inheritance		-	Deriving new object from existing ones 		 
+						(resuability)
+	Polymorphism	-	
+	
+	Google:
+		Drive
+		Search
+		Map
+		Gboard
+		Calendar
+		Forms
+		Classroom
+		Meet
+		GCP
+		
+		Class defined an object's properties/attributes (fields)
+		and behaviour (methods)
+		
+		A good software must have looslely coupled modules and each
+		module should show tight cohesion.
+		
+		
+		Simplicity vs Simplism
+		
+		Who runs main class	in java	-	OS
+	

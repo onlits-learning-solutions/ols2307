@@ -1,0 +1,96 @@
+
+	Analyse
+		
+		Accounting
+		
+		Encapsulation	-	Data hiding
+		
+		Date	-	11/03/2024 or 11-03-2024
+		
+		Letter of alphabet	-	a, b, c,..., z
+		Number	- 1, 2, 3, ..., infi.
+		
+		int, float, double, char
+		array
+		
+		class Date {
+			private int day;
+			private int month;
+			private int year;
+			
+			public void getDate(int day, int month, int year) {
+			
+			}
+			
+			public void getDate(String date) {
+			
+			} 
+		}
+		
+		
+		Polymorphism
+		
+		Date dob = new Date();
+		
+		dob.getDate(11, 3, 2024);
+		dob.getDate("11/03/2024");
+		
+		gets(), getc(), getchar()	-	Input
+		puts(), putc(), putchar()	-	Output
+		
+		get()	-	Output
+		set()	-	Input
+		
+		
+		WAP to accept a string and find its length.
+		
+		#include <string.h>
+		char name[30];
+		name = "Aman Kumar";		//Not possible
+		strcpy(name, "Aman Kumar");
+		printf("%d", strlen(name));
+		
+		
+		
+		int i=0;
+		while(name[i] != 0)
+		{
+			i++;
+		}
+		printf("%d", i);
+		
+		Algotrading
+		
+		
+		product
+			id
+			name
+			company
+			gst%
+			
+		supplier
+			id
+			name
+			address
+			contact_no
+			email
+			gstin
+			pan
+			
+		customer
+		
+		purchase
+		
+		sales
+		
+		return
+		
+		
+		ST
+		
+		SAC - Commercial Coaching & Training Center
+		
+		DRY	-	Don't Repeat Yourself
+		
+		
+		

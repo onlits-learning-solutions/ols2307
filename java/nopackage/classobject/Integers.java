@@ -1,7 +1,7 @@
 public class Integers {
     private int i;
 
-    Integers add(Integers x) {
+    Integers operator+(Integers x) {
         Integers sum = new Integers();
         sum.i = this.i + x.i;
         return sum;
@@ -12,7 +12,7 @@ public class Integers {
         Integers c;
         a.i = 10;
         b.i = 20;
-        c = a.add(b);
+        c = a + b;
         System.out.println("The sum is: " + c.i);
     }
 }

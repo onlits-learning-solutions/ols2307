@@ -1,0 +1,74 @@
+
+	Inheritance: The process of deriving class/object from another
+				 class/object
+				 
+	Reverse-Engineering
+	
+	C	->	Exe		->	Forward Engineering
+	Exe	->	C		->	Reverse Engineering
+	
+	
+	
+	int sum(int fno, int sno)
+	{
+		int s;
+		s = fno + sno;
+		return s;
+	}
+	
+	void deposit(float amount)
+	{
+		balance += amount;
+	}
+	
+	
+	int		-	return type				-	1		-	required
+	sum		-	function/method name	-	1		-	required
+	int fno
+	int sno	-	arguments/parameters	-	n		-	optional
+	
+	int s	-	local variable declaration	-	n	-	optional
+	s = fno + sno	-	function statement	-	n	-	optional
+	retun s	-	return statement			-	1	-	optional
+	
+	void	-	Return type
+	deposit -	Function/Method Name
+	float amount - argument/parameter
+	
+	
+	
+	
+	
+	Input	-	arguments
+	Processing
+	Output
+	
+	
+	Blog
+	Hotel Management System
+	Hospital Management System
+	School Management System
+	
+	
+	Web + site	=	A location on www containing some webpages.
+	
+	Web + application 
+	
+	E	-	Enterprise
+	R	-	Resource
+	P	-	Planning
+	
+	Accounting
+	Inventory Management
+	Application Processing System
+	Learning Management System
+	
+	
+	Web vs Cloud
+	
+	
+	- Lead Management System
+	- Access on any device
+	- Admission Management
+	- Fee Collection
+	- Attendance
