@@ -8,13 +8,23 @@ public class P8P18Main {
         System.out.println("Initial Balance: " + savingsAccount.getBalance());
         savingsAccount.deposit(3000.00F);
         System.out.println("Balance after deposit: " + savingsAccount.getBalance());
-
+        savingsAccount.calculateInterest(3.0F, 6);
+        System.out.println("Balance after interest: " + savingsAccount.getBalance());
+        savingsAccount.withdraw(15000);
+        System.out.println("Balance after withdrawal: " + savingsAccount.getBalance());
 
         
         System.out.println("\nTesting current account:");
         CurrentAccount currentAccount = new CurrentAccount();
         currentAccount.initialize();
+        currentAccount.checkMinimumBalance(5000, 100);
         System.out.println("Initial Balance: " + currentAccount.getBalance());
+        currentAccount.withdraw(15000);
+        currentAccount.checkMinimumBalance(5000, 100);
+        System.out.println("Balance after withdrawal: " + currentAccount.getBalance());
+        currentAccount.deposit(20000);
+        currentAccount.checkMinimumBalance(5000, 100);
+        System.out.println("Balance after deposit: " + currentAccount.getBalance());
         //currentAccount.balance = 10000.00F;
     }    
 }

@@ -1,3 +1,5 @@
+// Super/Parent/Base Class
+
 public class Account {
     protected String customerName;
     protected String accountNumber;
@@ -11,5 +13,12 @@ public class Account {
     float getBalance()
     {
         return balance;
+    }
+
+    void withdraw(float amount) {
+        if(balance >= amount)
+            balance -= amount;
+        else
+            System.out.println("Transaction declined!");
     }
 }

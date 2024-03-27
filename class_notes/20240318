@@ -1,9 +1,69 @@
 
 	Generic classes
 	
-	H/W
+	H/W - 1
 	- Find out the interest rate at which your bank gives you interest.
 	- Also find out how many times a year your interest is credited.
 	- Calculate the interest for the last period and compare it with
 	  bank's results.
+	
+	H/W - 2
+	- Calculate AMB and AQB for last month and quarter respectively, of
+	  your savings account.
+	- Verify it with your bank's figure.
+	
+	(13000 * 3 * 0.5) / 100
+	
+	
+	
+	(10000 + 0) / 2 = 5000
+	
+	Savings a/c is a type of account
+	Current a/c is a type of account
+	
+	fortuner is a suv.
+	
+	apple is a fruit
+	
+	pea is a vegetable
+	
+	has a
+	
+	Car has an engine			aggregation
+	
+	My teacher has a pen
+	
+	engine is part of car		composition
+	
+	WAP to accept 2 integers and sort them in ascending order.
+				  3
+				  5
+				  10
+				  
+	int main(void)
+	{
+		int nums[10];
+	
+	}
+	
+	
+	class Sorting {
+		public static void main(String[] args) {
+			int[] nums;
+			nums = new int[10]
+			
+			// or
+			
+			//int[] nums = new int()'
+		}
+	}
+	
+	
+	class Student {
+		int roll_no;
+		String name;
+		String mobileNumber = "8547896321";
+	}
+	
+	
 	
