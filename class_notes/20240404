@@ -1,0 +1,22 @@
+
+	- Constructor is a special member function/method used to initialize
+	objects.
+	
+	- It is special because its name is same as that of the class.
+	
+	- It is declared in the public section.
+	
+	- In case no explicit is defined language compiler/interpreter
+	  defines a default constructor.
+	  
+	Types of constructor:
+		- Default/No argument constructor
+			public ClassName() {}
+		- Parameterized constructor
+			public ClassName(int p1, float p2) {...}
+		- Copy constructor
+			public ClassName(ClassName p) {...}
+			
+	static keyword
+		- normal class methods are called using class objects.
+		- whereas static methods are called using class name.

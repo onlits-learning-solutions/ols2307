@@ -1,0 +1,69 @@
+
+ Classes for input in java:
+ 	- DataInputStream
+ 	- BufferedReader
+ 	- Scanner
+ 	- Console
+ 	
+ 	Class is specification
+ 	Object is the actual product
+ 	
+ 	
+ 	Schaum's Outline
+ 	
+ 	Functions - C (Algorithms)
+ 	Class - Java (DSA) - Standard DS
+ 	
+ 	students (rollno, name, dob, contact)
+ 		- New student
+ 		- Update student
+ 		- Promote student
+ 		
+ 	
+ 	DataInputStream dataInputStream = new DataInputStream();
+ 	
+ 	Scanner scanner = new Scanner(System.in)
+ 	
+ 	
+ 	Interface
+ 	Loose coupling
+ 	
+	public static void main(String[] args)
+	{
+		divide();		//error
+	}
+
+ 	int sum(int a, int b)
+ 	{
+ 		return a + b;
+ 	}
+ 	
+ 	int product()
+ 	{
+ 		return sum(5,6)		//compile-time
+ 	}
+ 	
+ 	Difference between byte and char data type in java.
+ 	
+ 	byte b;		-	8-bit - ascii
+ 	char c;		-	16-bit - unicode
+ 	
+ 	BCD, EDCDIC, ASCII (256), Unicode (65536)
+ 	
+ 	
+ 	Exception
+ 	
+ 	Division by zero
+ 	
+ 	x = a/(b-c)		a = 300, b = 50, c = 50
+ 	
+ 	System software design
+ 	
+ 	LDAP: Light-weight Directory Access Protocol
+ 	
+ 	
+ 	1. Extend Thread class
+ 	2. Implement Runnable interface
+ 	
+ 	
+ 	

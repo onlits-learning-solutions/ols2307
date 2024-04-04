@@ -1,0 +1,43 @@
+
+	String	-	A group/collection/sequence of characters
+	
+	set of letters of alphabet	-	26
+	
+	Array	-	finite
+	ArrayList	-	flexible
+	
+	In C string were stored in null terminated character arrays.
+	In C++ we have two options:
+		- One the same used in C.
+		- The other is string class object
+	In Java strings are stored in String class objects
+	
+	Mutable string
+	Immutable string
+	
+	WAP to accept the name of the user and greet and greet him 'Good
+	Morning!'. 
+	
+	C
+		printf()
+		Scanf()
+		
+	nextLine()
+	
+	int a;				//primitive
+	Scanner scanner = new Scanner()				//User-defined
+	
+	Static allocation
+	int a;			C, C++, Java
+	int arr[30];	C, C++
+	int *p;			C, C++
+	
+	Dynamic allocation:
+	malloc, calloc			C, C++
+	new, delete				C++, java
+	
+	1. DataInputStream	-	1.0
+	2. BufferedReader	-	1.1
+	3. Scanner			-	1
+	4. Console
+	
