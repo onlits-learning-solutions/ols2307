@@ -20,3 +20,30 @@
 	static keyword
 		- normal class methods are called using class objects.
 		- whereas static methods are called using class name.
+		
+	Package: is a way of organising classes in java.
+	
+	
+	Library:
+		Standard Library
+		Custom Library
+		
+	Convert amount from figures to words.
+	
+	package naming
+	
+	onlits.com
+	
+	com.onlits.constructordestructor
+	com.onlits.inheritance
+	
+	com.onlits.projects.expensemanager
+	
+	ols2307.projects.expensemanager
+	ols2307.constructordestructor
+	
+	java.lang
+	java.io
+
+	
+	

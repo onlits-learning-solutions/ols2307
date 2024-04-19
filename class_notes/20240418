@@ -1,0 +1,96 @@
+
+ Functions
+ 
+ CRUD	-	Database operations
+ 
+ Entity (Storage)	= Object (Processing)
+ 
+ Expense			=	Expense
+  Telephone			=	
+  Electricity
+  Grocery
+  Laundry
+  Conveyance
+  Tours & Travels
+  
+  Table Definition		Class Definition
+  DDL
+  
+  
+  Class -	Expense
+  	Data/Fields
+  		- name:	string
+  		- category (VED) : string
+  	Methods
+  		+ setExpense(Expense): void
+  		+ getExpenses(): collection
+  		+ getExpense(string): array
+  		+ removeExpense(string): void
+  		+ updateExpense(string, Expense): void
+  		
+  	
+  	Electricity Expenses	vital
+  	Telephone Expenses		vital
+  	Restaurant Expenses		desirable
+  	Grocery					vital
+  
+  Master
+  Trasaction
+  
+  Why in java public class are stored in separate file?
+  
+  
+  
+  
+  Class:
+  	- Class is a template for creating objects. (T/P)
+  	- Class is a specification of object. (T/P)
+  	- Class is a collection of objects. (T)
+  	- Class is a user-defined data type.
+  	
+  Object	=	Data + Methods/Function
+  	
+  	System.out.println()
+  	
+  	- out is an object of PrintStream class.
+  	- 
+  	
+  	Abstraction
+  	
+  	System out = new System();
+  	
+  	out.println();
+  	
+  	Class	-	Recipe (ingredients + process)	-	Data type
+  	Object	-	Dish							-	Variable (composite)
+  	
+  	What's new?
+  	
+  	Wave
+  	
+  	Encapsulation: The wrapping up of data and method into a single unit
+  				   (called class).
+  				   The wrapping is done so that data can be made 
+  				   private.				
+  	
+  	Fully qualified name: classname along with its package-name
+  	
+  	ols2307.project.expensemanager.Expense
+  	
+  	Domain Class
+  	
+  	File handling
+  		Storing, Search, Sorting, Retrival logic has to be created
+  	RDBMS	
+  		select	-	search/retrival
+  		index	-	sort
+  		insert	-	storing
+  		
+  	1. Estabilish a session with the DBMS.
+  	
+  	JDBC	-	Java DataBase Connectivity
+  	
+  	In OOP languages code library will contain mostly classes.
+  	
+  	Connection
+  	
