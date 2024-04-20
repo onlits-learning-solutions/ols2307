@@ -3,18 +3,23 @@ package ols2307.project.expensemanager;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.ArrayList;
 
 public class Expense {
     private String name = null;
     private String category = null;
 
-    public void setExpense(Expense expense) {
-        // Connection connection = new Connection();
+    public static void setExpense(String name, String category) {
         try {
-            Connection con = DriverManager.getConnection("");
-        } catch (SQLException ex) {
-
+            Connection connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/expense_manager_2307",
+                    "ols2307", "ols2307");
+            Statement statement = connection.createStatement();
+            String sql = "INSERT INTO expense VALUES('" + name + "', '" + category + "')";
+            statement.executeUpdate(sql);
+            System.out.println("Aal is well!");
+        } catch (SQLException exception) {
+            System.out.println(exception);
         }
     }
 
