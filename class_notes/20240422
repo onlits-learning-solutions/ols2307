@@ -1,0 +1,31 @@
+
+ Connection connection = new Connection();
+ Statement statement = new Statement();
+ 
+ Problem Domain (What)
+ 
+ Solution Domain (How)
+ 
+ 
+ class - data, methods (implementation/body)
+ interface - data, methods (decaration)
+ 
+ 
+ 	- Client	-	Change	
+ 	- JDBC		-	Fixed - Should act & Actually acts as an interface
+ 	- DBMS		-	Change	(Oracle/MySql/Mariadb/PostgreSQL/?/?)
+ 	
+ 	ORDBMS - PSQL
+ 	
+ 	ssn - Social Security Number
+ 	zipcode
+ 	
+ 	
+ 	aadhar
+ 	pincode
+ 	
+ 	Opposite of abstract is concrete
+ 	
+ 	Customer	-	Order
+ 	Swiggy		-	Service/Interface
+ 	Restaurant/Delivery - dbms
