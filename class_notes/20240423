@@ -1,0 +1,25 @@
+
+ Exception Handling
+ 
+ Arithmetic Exception
+ 
+ Brainstroming
+ 
+  
+ x = a / (b - c)
+ 
+ Test case 1:
+ 	a = 400, b = 75, c = 50
+ 	x = 16
+ 	
+ Test case 2
+ 	a = 300, b = 50, c = 50
+ 	x = ?
+ 	
+ try, catch, finally, throw, throws
+ 
+ S	-	Single Responsibility
+ O
+ L
+ I
+ D
