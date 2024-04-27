@@ -1,0 +1,73 @@
+
+	Reusability
+	
+	printf("")
+	
+	Functions provide reusability but they lack extensibility.
+	
+	int a	-	1 qty 1 type
+	int[n] b	-	n qty 1 type
+	Student s	-	n qty n type
+	
+	Object	-	Composite variable
+	
+	
+	date
+	
+	Employees
+		Full-time
+		Part-time
+		
+	General
+	Specific
+	
+	setter and getter methods
+	
+	Types of inheritance:
+		1. Single Inheritance
+		2. Multiple Inheritance (Throught classes not supported in java)
+		3. Multilevel Inheritance
+		4. Hierarchical Inheritance
+		5. Hybrid Inheritance
+		
+	static class members
+	
+	Abstract
+	Concrete
+	
+	Abstration
+	
+	
+	Java Code	+ JDBC + Driver + Various Database
+	
+	SRS	-	Format (Interface)	-	Impletation
+	
+	
+	
+	class CalculateArea {
+		public static void main(String[] args) {
+			Shape square = ShapeManager.getShape("square", 4);
+			square.area();
+			square.perimeter();
+
+			Shape rectangle = ShapeManager.getShape("rectangle", 6, 4);
+			rectangle.area();
+			rectangle.perimeter();		
+		}
+	}
+	
+	
+	Loosely coupled
+	Tightly coupled
+	
+	All the member of interface are public and final by default.
+	
+	#define PI 3.14
+	
+	const float PI = 3.14F;
+	
+	final float PI = 3.14F;
+	
+	
+	
+	

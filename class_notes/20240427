@@ -1,0 +1,50 @@
+
+	Interfaces are guidelines for creating classes
+	
+	Connection
+	DriverManager
+	Statement
+	
+	use of static keyword
+	
+	Visual C++	-> C#
+	
+	.Net Framework (Windows)
+	.Net Core (Cross platform)
+	.Net 8
+	
+	Java Enterprise Edition
+	Java Standard Edition
+	Java Micro Edition
+	
+	Recipe (class) and Dish (object)
+	
+	64-bit
+	
+	Implementing a Registration and Login System within
+	Laravel without page refresh. The system entities are
+	Admin and Customer.
+	
+	SPA	-	Single Page Application
+	
+	.csv
+	.xml
+	.json
+	
+	Factory method
+	
+	static keyword in c
+	
+	Loose Coupling
+	
+	1	2	3
+	4	5	6
+	7	8	9
+	
+	enum
+	
+	
+	Connection connection = DriverManager.getConnection("url");
+	
+	
+	
