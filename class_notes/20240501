@@ -1,0 +1,55 @@
+
+	End-User Programmer		-	Me/We
+	JDBC - Interface
+	DBMS	-	Oracle/MS Sql Server/MySql/MongoDB
+	
+	Read Books
+	
+	
+	Convenyance
+	Recharge
+	
+	
+	Refactoring
+	
+	C	-	Create
+	R	-	Retrieve
+	U	-	Update
+	D	-	Delete
+	
+	Pointer to the base class.
+	
+	Note: Base class pointer can point to derived class object.
+	
+	class Test {
+		private int a;						//instance variable
+		private static int b;				//class variable
+		
+		void testa() {						//instance methods
+		
+		}
+		
+		static void testb() {
+		
+		}
+	}
+	
+	class TryTest {
+		public static void main(String[] args) {
+			Test t1 = new Test();
+			Test t2 = new Test();
+			t1.testa();
+			t2.testa();
+			
+			Test.testb();
+			
+		}
+	}
+	
+	Use interface in the current to enforce strictness i.e. use
+	same name from crud methods.
+	
+	Default/No argument constructor
+	Parameterized constructor
+	
+	

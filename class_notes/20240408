@@ -1,0 +1,58 @@
+
+ Packages:
+ 	
+ 	
+ All Java codes are encapsulated in classes.
+ 
+ public static void main(String[] args) {
+ 	System.out.println("Hello!");
+ }
+ 
+ The classes that do not precede by package statement are categorised
+ in a special package known as default package
+ 
+ package = folder 			(physical design)
+ 
+ package = namespace
+ 
+ Button		-	java.awt		
+ JButton	-	javax.swing
+ 
+ onlits.com
+ 
+ com.onlits.fa
+ com.onlits.auth
+ 
+ ols2307.awt
+ ols2307.swing
+ ols2307.dsa.ll
+ 
+ AWT	-	Abstract Window Toolkit
+ 
+ Inherit Frame class
+ Instantiate Frame class
+ 
+ Suppose a company assigns its employee a unique id which is of the
+ format "E001". WAP in java to accept an employee number and generate
+ the next number in the series.
+ 
+ eg>
+ Enter employee id: E005
+ The next employee id is E006.
+ 
+ * validate entered employee id using regex.
+ 
+ Modularization: Create programs in modules
+ 
+ Method/Function Overloading
+ 
+  
+  O(n)
+  
+  15 digit application number
+  
+  GUMCA2207  098787
+  
+  UML
+ 
+ 
