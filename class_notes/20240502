@@ -1,0 +1,33 @@
+
+ Java 8
+ 
+ Software Re-engineering
+ 
+ Hacking & Cracking
+ 
+ SQL Injection
+ 
+ "DELETE FROM expense WHERE name='?'"
+ 
+ Prepared Statement
+ 
+ Thread	-	Light-weight process
+ 
+ Multithreaded Application	-	Parallel process
+ 
+ 
+ Instance of class Thread
+ Implementation of Runnable Interface
+ 
+ WHY
+ 
+ Concurrency Control
+ 
+ Start transaction
+ 	Insert
+ 	Insert
+ End transaction (Commit)
+ 
+ Rollback
+ 
+ Asynchronous Programming
