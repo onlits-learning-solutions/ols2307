@@ -1,0 +1,24 @@
+
+	client	-	class
+	jdbc	-	interface (Connection, Statement)
+	dbms	-	class
+	
+	JEE	-	Sun Microsystem (Java Enterprise Edition)
+	JEE -	Eclipse (Jakarta Enterprise Edition)
+	
+	Apache Tomcat
+	
+	Contemporary Enterprise App Development
+	
+	
+	Application Software
+	
+	Applet - Small application which runs in a browser
+	
+	Life Cycle
+		init
+		start
+		stop
+		destroy
+		paint
+		
