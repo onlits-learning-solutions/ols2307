@@ -1,0 +1,91 @@
+
+	Factorial
+	Multiplication Table
+	
+	Library (CRUD)
+		- New Book
+		- Edit Book
+		- Book List
+		
+	Book
+		Id
+		Title
+		Edition
+		Author(s)
+		Publication
+		ISBN-10
+		ISBN-13
+		Pages
+		DateOfEntry
+		Price
+	
+	MERN Stack	-	Full stack web development framework based on JS.
+	
+	NoSQL
+	
+	JEE	-	Java Enterprise Edition
+			Frontend	-	Applets	 (runs on browser)/JSP
+			Backend		-	Servlets (runs on Web Server)
+	
+	Networking		
+	PHP
+	MySQL
+	Database Connectivity
+	Python
+		List
+		Tuple
+		
+	JSP - ASP
+	
+	Book
+	Booklet
+	
+	file:///home/manish/batches/ols2307/servlet/helloworld/index.html
+	
+	http://localhost/
+	
+	http://onlits.com/
+	
+	http://www.onlits.com/public/
+	
+	Maven
+	gradle	-	Android Studio
+	
+	Apache Tomcat
+	
+	war	-	Web archive
+	jar -	Java archive
+	
+	Applet - Browser	(NPAPI) init, start, stop, destroy, paint
+	Java Apps	-	JVM	-	Java Virtual Machine (Java interpreter)
+	Servlet		-	Servlet Container (Apache Tomcat)
+					doGet, doPost
+	
+	JS engines
+		Chrome, Edge	-	V8
+		Firefox			-	SpiderMonkey
+		Edge (old)		-	Chakra
+		
+	
+	GenericServlet
+	HttpServlet
+	
+	HTTP Request Methods
+		GET		-		Read
+		POST	-		Create
+		PUT		-		Update
+		DELETE	-		Delete
+	
+	
+	<form action="" method="post">
+	
+	System.out.println("Hello World!");
+	
+	HTML-	HyperText Markup Language (Webpage)
+	XML	-	Extensible Markup Language
+	
+	Meta Language
+	
+	
+	
+	
