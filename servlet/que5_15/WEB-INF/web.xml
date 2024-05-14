@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>que515</servlet-name>
+        <servlet-class>ols2307.Que515</servlet-class>
+    </servlet>
+     <servlet>
+        <servlet-name>que515refactored</servlet-name>
+        <servlet-class>ols2307.Que515Refactored</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>create</servlet-name>
+        <servlet-class>ols2307.CreateAccount</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>accountlist</servlet-name>
+        <servlet-class>ols2307.AccountList</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>que515</servlet-name>
+        <url-pattern>/que515</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>que515refactored</servlet-name>
+        <url-pattern>/que515refactored</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>create</servlet-name>
+        <url-pattern>/create</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>accountlist</servlet-name>
+        <url-pattern>/accountlist</url-pattern>
+    </servlet-mapping>
+</web-app>
