@@ -1,0 +1,10 @@
+
+	Frontend
+		React
+		
+	Model		-	Data access code
+	View		-	User Interface (PHP + Blade)
+	Controller	-	Request Handler 
+	
+	Oak
+	Java

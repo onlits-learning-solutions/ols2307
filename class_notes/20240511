@@ -1,0 +1,42 @@
+	
+	Create a form in HTML taking account number from user as input.
+	Then write a servlet program receiving this form's data and
+	connect it with database by using JDBC. Then send the current
+	account balance of user stored in specific database back to user
+	as response. Also, mention all the assumed required data like
+	table name, database name and fields name etc.
+	
+	RDBMS
+		Normalisation
+		
+		Master Data				Account (Fixed)
+		Trasaction Data			Deposit, Withdraw, ATM issue (Recurring)
+		
+		
+	C	-	Create
+	R	-	Read
+	U	-	Update
+	D	-	Delete
+	
+	Maridb
+	Postgres
+	
+	
+	What is class?
+		Class is a collection of students. (Well-formed but not valid)
+		Class is a collection of objects.	(Well-formed and valid)
+		Class is a specification of objects. (Well-formed and valid)
+	What is object?
+	What is abstract class?
+	What is encapsulation?
+	What is abstraction?
+	What is polymorphism?
+	What is inheritance?
+	What is interface?
+	What is concrete class?
+	
+	Well-formed
+	XHTML
+	
+	
+	
