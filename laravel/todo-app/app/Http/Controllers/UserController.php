@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    function authenticate()
+    function authenticate(Request $request)
     {
-        return view('home');
+        return $request;
     }
 }

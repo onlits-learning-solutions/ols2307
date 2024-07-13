@@ -1,0 +1,21 @@
+
+	M	-	Model			-	Data
+	V	-	View			-	Presentation/UI
+	C	-	Controller		-	Request Handling
+	
+	
+	SQL
+	
+	ORM	-	Object Relation Mapper
+	
+	
+	CREATE TABLE tasks
+	(
+		id BIGINT AUTO_INCREMENT PRIMARY KEY,
+		name VARCHAR(100),
+		due_date DATE,
+		priority VARCHAR(10),
+		stats VARCHAR(10)
+	);
+	
+	PHP is a dynamically-typed language
