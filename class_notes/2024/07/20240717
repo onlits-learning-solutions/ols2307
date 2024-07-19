@@ -1,0 +1,54 @@
+
+	PHP is a dynamically-typed language
+	
+	Dependency Injection
+	
+	
+	int main(void)
+	{
+		int n;
+		printf();
+		scanf();
+		if(countFactors(n) == 2)
+			printf("Prime");
+		else
+			printf("Not Prime");
+		return 0;
+	}
+	
+	int countFactors(int n)
+	{
+		int factor = 0;
+		for(int i=1; i<=n; i++)
+		{
+			if(n % i == 0)
+				factor++;
+		}
+		return factor;
+	}
+	
+	Data import (xml)
+	ASP	-> xml
+	
+	500 BP
+	100 connection
+	
+	Aircel -> excel -> VB -> xml -> Tally
+	
+	
+	Excel, XML, JSON, PDF
+	
+	Feedback.get("pdf");
+	
+	
+	Connection connection = DriverManager.getConnection("mysql");
+	
+	SqlConnection sqlConnection = new SqlConnection();
+	MySqlConneection mysqlConnection = new MySqlConnection();
+	OracleConnection oracleConnection = new OracleConnection();
+	
+	
+	
+	
+	
+	

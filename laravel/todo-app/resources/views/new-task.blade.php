@@ -7,6 +7,9 @@
 </head>
 <body>
     <h1>{{ env('APP_NAME') }}</h1>
-    <a href="/task/new">Create a new task</a>
+    <h3>New Task</h3>
+    <form action="">
+        
+    </form>
 </body>
 </html>

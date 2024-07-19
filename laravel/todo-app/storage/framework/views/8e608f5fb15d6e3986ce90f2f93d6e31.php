@@ -7,5 +7,6 @@
 </head>
 <body>
     <h1><?php echo e(env('APP_NAME')); ?></h1>
+    <a href="/task/new">Create a new task</a>
 </body>
 </html><?php /**PATH /home/manish/batches/ols2307/laravel/todo-app/resources/views/home.blade.php ENDPATH**/ ?>
