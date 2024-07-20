@@ -1,0 +1,37 @@
+SELECT * FROM users WHERE email='$request->email' AND password=...
+
+How to call static method in java?
+
+
+public class Test {
+	public static void m1() {
+	
+	}
+	
+	public void m2() {
+	
+	}
+}
+
+public class TestClient {
+	public static void main(String[] args) {
+		Test test = new Test();
+		test.m2();		//non-static call
+		
+		Test.m1();		//static call
+	}
+}
+
+
+Test *test = new Test();
+test->m2();
+Test::m1()
+
+Authentication
+Authorization
+Credentials
+
+Why session is used in web application?
+Session is used maintain application state.
+
+HTTP - Stateless
