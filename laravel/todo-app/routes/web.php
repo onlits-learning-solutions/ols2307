@@ -21,5 +21,5 @@ Route::get('/', function () {
 
 Route::post('/authenticate', [UserController::class, 'authenticate']);
 
-Route::get('/task', [TaskController::class, 'index']);
-Route::get('/task/new', [TaskController::class, 'show']);
+Route::get('/tasks', [TaskController::class, 'index']);
+Route::get('/tasks/create', [TaskController::class, 'create']);

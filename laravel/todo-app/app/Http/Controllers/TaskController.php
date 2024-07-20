@@ -13,8 +13,13 @@ class TaskController extends Controller
         return view('home', $tasks);
     }
 
-    public function show()
+    public function create()
     {
         return view('new-task');
+    }
+
+    public function store(Request $request)
+    {
+
     }
 }

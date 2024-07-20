@@ -9,7 +9,7 @@ use function PHPUnit\Framework\isEmpty;
 
 class UserController extends Controller
 {
-    function authenticate(Request $request)
+    public function authenticate(Request $request)
     {
         $user = User::where('email', $request->email)->where('password', $request->password)->first();
 
