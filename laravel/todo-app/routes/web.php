@@ -23,3 +23,4 @@ Route::post('/authenticate', [UserController::class, 'authenticate']);
 
 Route::get('/tasks', [TaskController::class, 'index']);
 Route::get('/tasks/create', [TaskController::class, 'create']);
+Route::post('/tasks', [TaskController::class, 'store']);

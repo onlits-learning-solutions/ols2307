@@ -16,7 +16,7 @@ class UserController extends Controller
         if ($user == null) {
             return "Invalid email/password";
         } else {
-            return redirect('/task');
+            return redirect('/tasks');
         }
     }
 }
