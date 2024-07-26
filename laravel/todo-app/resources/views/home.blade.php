@@ -12,9 +12,8 @@
     <h1>{{ env('APP_NAME') }}</h1>
     <a href="/tasks/create">Create a new task</a>
     <h3 class="alert alert-light">Task List</h3>
-    <table width="100%">
+    <table class="table">
         <tr>
-            <th>Id</th>
             <th>Name</th>
             <th>Due Date</th>
             <th>Priority</th>
@@ -23,12 +22,15 @@
         </tr>
         @foreach ($tasks as $task)
         <tr>
-            <td>{{ $task->id }} </td>
             <td>{{ $task->name }}</td>
             <td>{{ $task->due_date }}</td>
             <td>{{ $task->priority }}</td>
             <td>{{ $task->status }}</td>
-            <td><a href="">Edit</a> <a href="">Delete</a></td>
+            <td>
+                <a href="/tasks/{{ $task->id }}">Details</a>
+                <a href="/tasks/edit/{{ $task->id }}">Edit</a>
+                <a href="/tasks/delete/{{ $task->id }}">Delete</a>
+            </td>
         </tr>
         @endforeach
     </table>

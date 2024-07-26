@@ -12,9 +12,8 @@
     <h1><?php echo e(env('APP_NAME')); ?></h1>
     <a href="/tasks/create">Create a new task</a>
     <h3 class="alert alert-light">Task List</h3>
-    <table width="100%">
+    <table class="table">
         <tr>
-            <th>Id</th>
             <th>Name</th>
             <th>Due Date</th>
             <th>Priority</th>
@@ -23,12 +22,15 @@
         </tr>
         <?php $__currentLoopData = $tasks; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $task): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
         <tr>
-            <td><?php echo e($task->id); ?> </td>
             <td><?php echo e($task->name); ?></td>
             <td><?php echo e($task->due_date); ?></td>
             <td><?php echo e($task->priority); ?></td>
             <td><?php echo e($task->status); ?></td>
-            <td><a href="">Edit</a> <a href="">Delete</a></td>
+            <td>
+                <a href="/tasks/<?php echo e($task->id); ?>">Details</a>
+                <a href="/tasks/edit/<?php echo e($task->id); ?>">Edit</a>
+                <a href="/tasks/delete/<?php echo e($task->id); ?>">Delete</a>
+            </td>
         </tr>
         <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
     </table>
