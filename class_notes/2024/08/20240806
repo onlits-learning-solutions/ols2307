@@ -1,0 +1,56 @@
+
+	DSA
+		Data Structures
+			A particular organisation of data for processing it
+			efficiently.
+			
+		Algorithms
+			A finite number of steps to solve a problem.
+			
+	
+		WAP for prime number.
+		
+		
+		int isprime(int num)
+		{
+			return 1;
+		}
+		
+		return 0, if not prime
+		else return 1
+	
+	Data Structures
+	
+	int	-	32 bits
+	
+	int a = 1;
+	
+	00000000 00000000 00000000 00110001
+	
+	C
+	C++
+	Java
+	Python
+	
+	ADT: Abstract DataType
+	
+	OOP
+	
+	
+	struct vs class
+	
+	structure consited of data
+	class consists of data and function/method that manipulates the data
+	
+	
+	Class
+		encapsulation
+		abstraction
+		inheritance
+		polymorphism
+	
+	
+	Resume
+		void template(int type)
+	
+	
