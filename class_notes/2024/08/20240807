@@ -1,0 +1,29 @@
+
+	Linear
+		Array
+			A collection of similar elements. (1D, 2D, ... , nD)
+		Linked-list
+			singly, doubly, circular
+		Stack
+		Queue
+	
+	Non-Linear
+		Tree
+		Graph
+		
+		
+	Operations:
+		Traversing:	Visiting every element once
+		Insert
+		Delete
+		Search
+		Sort
+		Merge
+		
+	DRY
+	KISS
+	YAGNI
+	
+	Waterfall - Analysis
+	
+	echo %ERRORLEVEL%
