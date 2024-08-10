@@ -1,0 +1,22 @@
+
+	void printf(char *str);
+	
+	System.out.println()
+		- What is System?
+		- What is out?
+		- What is println()?
+		- To which class println() belongs?
+		- Prototype/Declaration of println()?
+		
+		
+	Functions with variable number of arguments
+	
+	1. Interview/Questionnaire
+	2. Onsite Observation
+	3. Literature Review
+	
+	DRY
+	YAGNI
+	KISS
+	
+	Refactoring

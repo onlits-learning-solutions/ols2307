@@ -6,6 +6,7 @@
 void messagebox(char *message);
 void display(int nums[], int size); // readonly parameter
 void insert(int nums[], int *size, int value, int index);
+void delete(int nums[], int *size, int index);
 
 int main(void)
 {
@@ -16,6 +17,7 @@ int main(void)
         printf("MAIN MENU\n");
         printf("1. Display array (travarsal)\n");
         printf("2. Insert an element\n");
+        printf("3. Delete and element\n");
         printf("Enter choice (0 to exit): ");
         scanf("%d", &op);
         switch (op)
@@ -33,6 +35,14 @@ int main(void)
             scanf("%d", &index);
             insert(nums, &size, value, index);
             break;
+        case 3:
+            printf("Enter index: ");
+            scanf("%d", &index);
+            delete (nums, &size, index);
+            break;
+        case 41:
+            messagebox("This is a hidden feature (easter egg)");
+            break;
         default:
             messagebox("Invalid Option!");
         }
@@ -48,7 +58,7 @@ void messagebox(char *message)
 
 void display(int nums[], int size)
 {
-    if (size == 0) // print the size of nums
+    if (size == 0)
     {
         messagebox("Array is empty!");
         return;
@@ -72,7 +82,7 @@ void insert(int nums[], int *size, int value, int index)
 
     if (index > *size)
     {
-        messagebox("Overflow");
+        messagebox("Invalid Index");
         return;
     }
 
@@ -83,7 +93,29 @@ void insert(int nums[], int *size, int value, int index)
 
     nums[index] = value;
     (*size)++;
-    printf("size:%d\n", *size);
 
     messagebox("Insert successful!");
+}
+
+void delete(int nums[], int *size, int index)
+{
+    if (*size == 0)
+    {
+        messagebox("Array is empty!");
+        return;
+    }
+
+    if (index >= *size)
+    {
+        messagebox("Invalid Index");
+        return;
+    }
+
+    for (int i = index; i < *size; i++)
+    {
+        nums[i] = nums[i + 1];
+    }
+    (*size)--;
+
+    messagebox("Delete successful!");
 }
