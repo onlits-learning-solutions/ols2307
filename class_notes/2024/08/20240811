@@ -1,0 +1,60 @@
+
+	Unit testing
+	Project handling using maven
+	
+	
+	ADT	-	Abstract Data Type
+	
+	Primitive	-	int, char etc
+	Derived - function, array, pointer	(Not supported in Java)
+	User Defined - class, interface, record
+	
+	
+	Full Name	=	Syed Maaz Ashraf
+	DOB			=	21-06-2003
+	
+	typedef struct node {
+		int data;
+		struct node *next;
+	}NODE;
+	
+	NODE node1;
+	struct node node1;
+	int a;
+	
+	class node {
+		int data;
+		struct node *next;
+	public:
+		void newNode()
+		{
+		
+		}
+	};
+	
+	Design
+	
+	Fully qualified name
+	
+	Relationships in Java/OOP
+		- Inheritance	
+		- Association
+			- Composition
+			- Aggregation
+			
+		Mango is a Fruit
+		Apple is a Fruit
+		Banana is a Fruit
+		
+		Engine is a part of car
+		
+		Integer
+	
+	Asymtotic Notation
+	
+	O(1)
+	O(log n)
+	O(n)
+	O(n^2)
+	
+	

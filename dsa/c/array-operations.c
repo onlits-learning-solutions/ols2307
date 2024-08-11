@@ -73,7 +73,6 @@ void display(int nums[], int size)
 
 void insert(int nums[], int *size, int value, int index)
 {
-    printf("size:%d\n", *size);
     if (*size > MAX - 1)
     {
         messagebox("Overflow!");

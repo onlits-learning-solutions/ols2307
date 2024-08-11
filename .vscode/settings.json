@@ -1,7 +1,5 @@
 {
-    "java.project.sourcePaths": [
-        "servlet/que5_15/src"
-    ],
+    "java.project.sourcePaths": [],
     "java.project.referencedLibraries": [
         "/home/manish/classpath/servlet-api.jar"
     ]
