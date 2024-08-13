@@ -94,6 +94,7 @@ void insert(int nums[], int *size, int value, int index)
     (*size)++;
 
     messagebox("Insert successful!");
+    printf("Value inserted at %p.\n", &nums[index]);
 }
 
 void delete(int nums[], int *size, int index)
