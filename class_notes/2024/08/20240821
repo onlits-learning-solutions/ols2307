@@ -1,0 +1,77 @@
+
+	Asymtotic notation
+	
+		linear search - O(n)
+		binary search - O(log n)
+		
+	Windows XP
+	Windows Vista	-	Inefficiency
+	Windows 7
+	
+	2^3	= 8
+	
+	log(2)8 = 3
+	
+	best case
+	worst case
+	average case
+	
+	
+	
+	Repeat for 
+	
+	Time
+	Space
+	
+	Trade-off
+	
+	Recursion
+		Factorial
+		Fibonacci
+		Print natural numbers
+	
+	Divide and Conquer
+	
+	
+	int factorial(int n)
+	{
+		if(n==1)					//base condition/case
+			return 1;
+			
+		return n * factorial(n-1);			//recursive call
+	}
+	
+	int factorial(int n)
+	{
+		int fact = 1;
+		
+		for(int i=n; n>=1; i--)
+		{
+			fact *= i;
+		}
+		return fact;
+	}
+	
+	
+	5!	=	5 x 4!
+	4!	=	4 x 3!
+	
+	n!	=	n x (n-1)!
+	
+	
+	3rd	=	1st + 2nd
+	4th = 2nd + 3rd
+	
+	fib(n)	=	fib(n-2) + fib(n-1);
+	
+	Why learn Bit-level programming?
+	
+	if-else
+	?:
+	
+	Assumptions and Dependencies
+	
+	
+	Pre-condition for binary search is that data should be sorted.
+	
+	
