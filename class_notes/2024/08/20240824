@@ -1,0 +1,35 @@
+
+	Tower of hanoi
+	
+	for(i=2; i<n/2; i++) 	//O(n/2)
+	{
+		if(n%i==0)
+		{
+			fact++;
+		}
+	}
+	
+	- Intelligent use of data structures
+	- Create algorithm to work with DSs
+	
+	Selection sort
+	
+	2!	=	2
+	3!	=	6
+	
+	2^2 = 	4
+	3^2 =	9
+	
+	Linear Search
+	
+	78 20 5 99 85
+	
+	Key: 78	(Best)
+	Key: 50 (Worst)
+	
+	Best Case -	O(1)
+	Worst Case - O(n)
+	
+	good better best
+	
+	
