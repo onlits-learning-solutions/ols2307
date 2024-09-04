@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class GuessTheNumber {
     static void startGame(int low, int high) {
-        int mid, i = 0;
+        int mid, i = 0, cheater = 1;
         char response = 'n';
         Scanner scanner = new Scanner(System.in);
         System.out.printf("Guess a number between %d and %d! Press [y] to continue...\n", low, high);
@@ -17,6 +17,7 @@ public class GuessTheNumber {
                 response = scanner.next().charAt(0);
                 if (response == 'y') {
                     System.out.printf("Wow! I guessed your number in %d attempt(s)\n", i);
+                    cheater = 0;
                     break;
                 } else {
                     System.out.printf("Is %d too high ([y]/[n])? ", mid);
@@ -28,6 +29,8 @@ public class GuessTheNumber {
                 }
             }
         }
+        if(cheater == 1)
+            System.out.println("You were trying to cheat!");
         scanner.close();
     }
 

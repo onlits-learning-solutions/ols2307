@@ -1,0 +1,35 @@
+
+	-999999999
+	
+	
+	char[]
+	string
+	
+	String(Immutable, Not Thread-safe)
+	
+	StringBuffer
+	StringBuilder
+	
+	value types	-	stack
+	ref types	-	heap
+	
+	int *p = malloc(10);
+	
+	int[] nums = new int[5];
+	
+	Breadth-wise (iterative)
+	Depth-wise
+	
+	Do you have to modify the input?
+	
+	Expense-sharing
+		Advance Payments
+		Record Expense (7500)
+		Billing (Splitting)
+		
+		
+		Maazashraf	=	3000	=	+500
+		Moein		=	2500	=	0
+		Aman		=	2000	=	-500
+		
+		
