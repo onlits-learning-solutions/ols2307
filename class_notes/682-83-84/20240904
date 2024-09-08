@@ -1,0 +1,10 @@
+
+	Inner class
+	
+	class A {
+		class B {
+		
+		}
+	}
+	
+	POJO	-	Plain Old Java Object
