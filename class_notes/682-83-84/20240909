@@ -1,0 +1,46 @@
+
+	Organic
+	
+	Anonymous object
+	
+	Laptop
+		- Motherboard (Sockets, ports, buses)
+		- CPU
+		- RAM
+		- SDD
+		- Display
+		- Keyboard (key, circuit board)
+		- Touchpad (buttons)
+		
+		
+	Collection of nodes
+	
+	class Flight {
+	
+	}
+	
+	Print Queue
+	
+	DRY
+	KISS
+	YAGNI
+	
+	S	-	Single Responsibility
+	O	-	Open Closed
+	L
+	I
+	D
+	
+	Open for extension
+	Closed for modification
+	
+	Frame
+	JFrame
+	
+	Opening
+	Middlegame
+	Endgame
+	
+	vector
+	
+	
