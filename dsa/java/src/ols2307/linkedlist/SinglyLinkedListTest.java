@@ -11,6 +11,8 @@ public class SinglyLinkedListTest {
             System.out.println("1. Display (Traverse)");
             System.out.println("2. Append");
             System.out.println("3. Insert (Beginning)");
+            System.out.println("4. Insert (at the given index)");
+            System.out.println("5. Remove (Beginning)");
             System.out.print("Enter choice [0 to exit]: ");
             int response = scanner.nextInt();
             switch (response) {
@@ -32,6 +34,17 @@ public class SinglyLinkedListTest {
                     System.out.print("Enter a value: ");
                     list.insert(scanner.nextInt());
                     System.out.println("\nData Inserted!\n");
+                    break;
+                case 4:
+                    System.out.print("Enter a value: ");
+                    int data = scanner.nextInt();
+                    System.out.print("Enter index: ");
+                    int index = scanner.nextInt();
+                    list.insert(data, index);
+                    System.out.println("\nData Inserted!\n");
+                    break;
+                case 5:
+                    list.remove();
                     break;
                 default:
                     System.out.println("\nInvalid option!\n");

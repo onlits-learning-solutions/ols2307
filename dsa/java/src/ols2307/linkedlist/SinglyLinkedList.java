@@ -26,14 +26,14 @@ public class SinglyLinkedList {
 
         Node itr = head;
 
-        while (itr.getNext() != null) {     //looking for the last node
+        while (itr.getNext() != null) { // looking for the last node
             itr = itr.getNext();
         }
-        
+
         itr.setNext(new Node(data));
     }
 
-    public void insert(int data) {      //insert at the beginning
+    public void insert(int data) { // insert at the beginning
         if (head == null) {
             head = new Node(data);
             return;
@@ -42,8 +42,8 @@ public class SinglyLinkedList {
         head = new Node(data, head);
     }
 
-    public void insert(int data, int index) {      //insert at a particular location
-        
+    public void insert(int data, int index) { // insert at a particular location
+
         if (head == null) {
             head = new Node(data);
             return;
@@ -51,11 +51,20 @@ public class SinglyLinkedList {
 
         Node itr = head;
 
-        for(int i=0; i<index; i++)
-        {
+        for (int i = 1; i < index; i++) {
             itr = itr.getNext();
         }
-        
-        head = new Node(data, head);
+
+        itr.setNext(new Node(data, itr.getNext()));
+    }
+
+    public void remove() { // remove from the beginning
+        if (head == null) {
+            System.out.println("\nList Empty!\n");
+            return;
+        }
+
+        head = head.getNext();
+        System.out.println("\nNode removed!\n");
     }
 }
