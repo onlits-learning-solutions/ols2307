@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "java/src/main",
+        "java/src/test"
+    ],
+    "java.project.referencedLibraries": [
+        "/home/manish/classpath/junit-4.10.jar"
+    ]
+}

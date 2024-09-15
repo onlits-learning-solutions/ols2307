@@ -1,0 +1,9 @@
+
+	5! = 120
+	
+	int factorial = Math.factorial(5);
+	assertEquals(120, factorial);
+	
+	GIGO	-	Garbage In Garbase Out
+	
+	POJO	-	Plain Old Java Object
