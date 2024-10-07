@@ -6,9 +6,11 @@ import org.junit.Test;
 
 public class StackTest {
     @Test
-    public void testPush() {
+    public void testPushMultiple() {
         Stack stack = new Stack();
         int response = stack.push(10);
-        assertEquals(10, response);
+        response = stack.push(20);
+        response = stack.push(30);
+        assertEquals(30, response);
     }
 }

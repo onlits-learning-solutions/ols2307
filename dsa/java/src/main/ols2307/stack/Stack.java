@@ -4,23 +4,58 @@ public class Stack {
     private Node top;
 
     public void display() {
-        
+        if (top == null) {
+            System.out.println("\nStack empty!\n\n");
+            return;
+        }
+
+        Node cursor = top;
+
+        while (true) {
+            System.out.println(cursor.getData());
+            if (cursor.getNext() == null) {
+                return;
+            }
+
+            cursor = cursor.getNext();
+        }
+
     }
 
     public int push(int data) {
-        return 10;
+        if (empty()) {
+            top = new Node(data);
+            return peek();
+        }
+
+        top = new Node(data, top);
+
+        return peek();
     }
 
     public int pop() {
-        return 0;
+        if(empty()){
+            System.out.println("\nStack underflow!\n\n");
+            return peek();
+        }
+
+        top = top.getNext();
+        System.out.println("\nData popped!\n\n");
+        return peek();
     }
 
     public int peek() {
-
-        return 0;
+        if (empty()) {
+            System.out.println("\nStack empty!\n");
+            return -1;
+        }
+        return top.getData();
     }
 
     public boolean empty() {
-        return true;
+        if (top == null)
+            return true;
+        else
+            return false;
     }
 }
